@@ -1,4 +1,4 @@
-.container-1 .container-2{
+.container-1 .container-2, .container-3{
     border:1px solid black;
     margin: 0 auto;
     width:75%;
@@ -23,4 +23,12 @@
     margin: 10px;
     /* align-items: center; */
     box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+}
+
+.flex-box-rps img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.7);
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(14,14,231,0.7);
 }
